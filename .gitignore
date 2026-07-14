@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.vscode/
+.ipynb_checkpoints/
+
+data/DataCoSupplyChainDataset.csv
+output/cleaned_supply_chain.csv
