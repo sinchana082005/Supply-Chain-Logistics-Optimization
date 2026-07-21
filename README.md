@@ -1,492 +1,247 @@
-\# 📦 End-to-End Supply Chain \& Logistics Optimization
-
-
+📦 End-to-End Supply Chain & Logistics Optimization
 
 <p align="center">
 
-
-
-!\[Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-
-!\[Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-
-!\[MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql)
-
-!\[Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
-
-!\[GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?logo=github)
-
-
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?logo=github)
 
 </p>
 
+---
 
+📖 Project Overview
 
-\---
+This project demonstrates an end-to-end **Supply Chain & Logistics Analytics** pipeline that transforms raw transactional data into interactive business dashboards.
 
+The workflow includes data cleaning with **Python**, data management using **MySQL**, and interactive dashboard development in **Power BI** to monitor logistics performance, sales trends, customer behavior, shipping efficiency, and product profitability.
 
+---
 
-\## 📖 Project Overview
+ 🎯 Objectives
 
+- Analyze overall supply chain performance
+- Monitor shipping delays and logistics efficiency
+- Identify top-performing products and regions
+- Understand customer purchasing patterns
+- Generate actionable business insights through interactive dashboards
 
+---
 
-This project demonstrates an end-to-end Supply Chain \& Logistics Analytics pipeline that transforms raw transactional data into interactive business dashboards.
-
-
-
-The workflow includes data cleaning with Python, data management using MySQL, and interactive dashboard development in Power BI to help monitor logistics performance, sales trends, customer behavior, shipping efficiency, and product profitability.
-
-
-
-\---
-
-
-
-\# 🎯 Objectives
-
-
-
-\- Analyze overall supply chain performance
-
-\- Monitor shipping delays and logistics efficiency
-
-\- Identify top-performing products and regions
-
-\- Understand customer purchasing patterns
-
-\- Generate actionable business insights through interactive dashboards
-
-
-
-\---
-
-
-
-\# 🛠️ Technology Stack
-
-
+🛠️ Technology Stack
 
 | Technology | Purpose |
-
 |------------|---------|
-
-| Python | Data Cleaning \& ETL |
-
+| Python | Data Cleaning & ETL |
 | Pandas | Data Processing |
+| MySQL | Data Storage & Querying |
+| Power BI | Dashboard & Visualization |
+| Git & GitHub | Version Control |
 
-| MySQL | Data Storage \& Querying |
+---
 
-| Power BI | Dashboard \& Visualization |
+📂 Project Workflow
 
-| Git \& GitHub | Version Control |
-
-
-
-\---
-
-
-
-\# 📂 Project Workflow
-
-
-
-```
-
+```text
 Raw Dataset
-
-&#x20;     │
-
-&#x20;     ▼
-
+      │
+      ▼
 Python Data Cleaning
-
-&#x20;     │
-
-&#x20;     ▼
-
+      │
+      ▼
 MySQL Database
-
-&#x20;     │
-
-&#x20;     ▼
-
+      │
+      ▼
 Power BI Data Model
-
-&#x20;     │
-
-&#x20;     ▼
-
+      │
+      ▼
 Interactive Dashboards
-
-&#x20;     │
-
-&#x20;     ▼
-
+      │
+      ▼
 Business Insights
-
 ```
 
+---
 
+📊 Dashboard Pages
 
-\---
+📈 Executive Dashboard
 
+Features
 
+- Total Sales
+- Total Orders
+- Delayed Orders
+- Total Profit
+- Average Delay Days
+- Sales by Region
+- Late Delivery Rate by Shipping Mode
+- Delayed Orders by Product Category
+- Interactive Region Filter
+- Interactive Shipping Mode Filter
 
-\# 📊 Dashboard Pages
+Dashboard Preview
 
+![Executive Dashboard](images/page1_dashboard.png)
 
+---
 
-\## 📈 Page 1 – Executive Dashboard
+🚚 Operations & Logistics Dashboard
 
+Features
 
+- Average Shipping Time
+- Average Delivery Delay
+- Order Distribution by Shipping Mode
+- Logistics Performance Analysis
+- Regional Delay Analysis
+- Operational Business Insights
 
-\### Features
+Dashboard Preview
 
+![Operations Dashboard](images/page2_dashboard.png)
 
+---
 
-\- Total Sales
+📦 Product & Customer Insights Dashboard
 
-\- Total Orders
+Features
 
-\- Delayed Orders
+- Product Category Analysis
+- Customer Segment Analysis
+- Top Selling Products
+- Product Profitability
+- Customer Revenue Distribution
+- Product & Customer Filters
 
-\- Total Profit
+Dashboard Preview
 
-\- Average Delay Days
+![Product Dashboard](images/page3_dashboard.png)
 
-\- Sales by Region
+---
 
-\- Late Delivery Rate by Shipping Mode
+📌 Key Business Insights
 
-\- Delayed Orders by Product Category
+- Western Europe generated the highest sales revenue.
+- Consumer customers contributed the highest revenue.
+- Standard Class handled the largest share of orders.
+- First Class shipping experienced the highest late delivery rate.
+- Fishing and Cleats were among the highest-selling product categories.
+- High-profit categories offer opportunities for strategic growth.
+- Improving premium shipping routes can reduce delivery delays.
 
-\- Interactive Region Filter
+---
 
-\- Interactive Shipping Mode Filter
+📁 Repository Structure
 
-
-
-\### Dashboard Preview
-
-
-
-!\[Executive Dashboard](images/page1\_dashboard.png)
-
-
-
-\---
-
-
-
-\## 🚚 Page 2 – Operations \& Logistics Dashboard
-
-
-
-\### Features
-
-
-
-\- Average Shipping Time
-
-\- Average Delivery Delay
-
-\- Order Distribution by Shipping Mode
-
-\- Logistics Performance Analysis
-
-\- Regional Delay Analysis
-
-\- Operational Business Insights
-
-
-
-\### Dashboard Preview
-
-
-
-!\[Operations Dashboard](images/page2\_dashboard.png)
-
-
-
-\---
-
-
-
-\## 📦 Page 3 – Product \& Customer Insights Dashboard
-
-
-
-\### Features
-
-
-
-\- Product Category Analysis
-
-\- Customer Segment Analysis
-
-\- Top Selling Products
-
-\- Product Profitability
-
-\- Customer Revenue Distribution
-
-\- Product \& Customer Filters
-
-
-
-\### Dashboard Preview
-
-
-
-!\[Product Dashboard](images/page3\_dashboard.png)
-
-
-
-\---
-
-
-
-\# 📌 Key Business Insights
-
-
-
-\- Western Europe generated the highest sales revenue.
-
-\- Consumer customers contributed the highest revenue.
-
-\- Standard Class handled the largest share of orders.
-
-\- First Class shipping experienced the highest late delivery rate.
-
-\- Fishing and Cleats products were among the highest-selling categories.
-
-\- High-profit categories offer opportunities for strategic growth.
-
-\- Improving premium shipping routes can reduce delivery delays.
-
-
-
-\---
-
-
-
-\# 📁 Repository Structure
-
-
-
-```
-
+```text
 SupplyChainProject
-
 │
-
 ├── PowerBI
-
-│   └── Supply\_Chain\_Logistics\_Optimization.pbix
-
+│   └── Supply_Chain_Logistics_Optimization.pbix
 │
-
 ├── images
-
-│   ├── page1\_dashboard.png
-
-│   ├── page2\_dashboard.png
-
-│   └── page3\_dashboard.png
-
+│   ├── page1_dashboard.png
+│   ├── page2_dashboard.png
+│   └── page3_dashboard.png
 │
-
 ├── data
-
 │
-
 ├── output
-
 │
-
 ├── sql
-
 │
-
 ├── main.py
-
-├── migrate\_to\_sql.py
-
-├── run\_analytics.py
-
+├── migrate_to_sql.py
+├── run_analytics.py
 ├── requirements.txt
-
 └── README.md
-
 ```
 
+---
 
+🚀 How to Run
 
-\---
-
-
-
-\# 🚀 How to Run
-
-
-
-\### 1. Clone Repository
-
-
+1. Clone Repository
 
 ```bash
-
 git clone https://github.com/sinchana082005/SupplyChainProject.git
-
 ```
 
-
-
-\### 2. Install Dependencies
-
-
+2. Install Dependencies
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
-
-
-\### 3. Run Data Processing
-
-
+3. Run Data Processing
 
 ```bash
-
 python main.py
-
 ```
 
-
-
-\### 4. Run Analytics
-
-
+4. Run Analytics
 
 ```bash
-
-python run\_analytics.py
-
+python run_analytics.py
 ```
 
-
-
-\### 5. Open Dashboard
-
-
+5. Open Dashboard
 
 Open the Power BI file:
 
-
-
+```text
+PowerBI/Supply_Chain_Logistics_Optimization.pbix
 ```
 
-PowerBI/Supply\_Chain\_Logistics\_Optimization.pbix
+---
+📂 Dataset
 
-```
-
-
-
-\---
-
-
-
-\# 📂 Dataset
-
-
-
-\*\*Dataset Name\*\*
-
-
+**Dataset Name**
 
 DataCo SMART Supply Chain Dataset
 
-
-
-\*\*Records\*\*
-
-
+**Total Records**
 
 180,519 Orders
 
+---
 
+💡 Skills Demonstrated
 
-\---
+- Data Cleaning
+- ETL Pipeline
+- Data Modeling
+- SQL Database Management
+- Business Intelligence
+- Dashboard Design
+- Data Visualization
+- Supply Chain Analytics
+- Customer Analytics
+- Logistics Performance Analysis
 
+---
 
+🔮 Future Enhancements
 
-\# 💡 Skills Demonstrated
+- Predictive Demand Forecasting
+- Delivery Delay Prediction using Machine Learning
+- Inventory Optimization Dashboard
+- Supplier Performance Analytics
+- Real-Time Dashboard Integration
 
+---
 
+👩‍💻 Author
 
-\- Data Cleaning
+**Sinchana Naik**
 
-\- ETL Pipeline
+Computer Science Engineering Student
 
-\- Data Modeling
+**GitHub:** https://github.com/sinchana082005
 
-\- SQL Database Management
+---
 
-\- Business Intelligence
-
-\- Dashboard Design
-
-\- Data Visualization
-
-\- Supply Chain Analytics
-
-\- Customer Analytics
-
-\- Logistics Performance Analysis
-
-
-
-\---
-
-
-
-\# 🔮 Future Enhancements
-
-
-
-\- Predictive demand forecasting
-
-\- Delivery delay prediction using Machine Learning
-
-\- Inventory optimization dashboard
-
-\- Supplier performance analytics
-
-\- Real-time dashboard integration
-
-
-
-\---
-
-
-
-\# 👩‍💻 Author
-
-
-
-\*\*Sinchana Naik\*\*
-
-
-
-
-
-GitHub:
-
-https://github.com/sinchana082005
-
-
-
-
-
+⭐ If you found this project useful, please consider giving it a star!
